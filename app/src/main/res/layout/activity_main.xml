@@ -41,7 +41,6 @@
             android:visibility="gone" />
    </FrameLayout>
 
-    <!-- Bottom Menu -->
     <LinearLayout
         android:id="@+id/bottomMenu"
         android:layout_width="0dp"
@@ -54,7 +53,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <!-- Kalkulator Section -->
         <LinearLayout
             android:id="@+id/sectionCalculator"
             android:layout_width="0dp"
@@ -86,7 +84,6 @@
                 android:visibility="gone"/>
         </LinearLayout>
 
-        <!-- Lista Akcija Section -->
         <LinearLayout
             android:id="@+id/sectionActions"
             android:layout_width="0dp"

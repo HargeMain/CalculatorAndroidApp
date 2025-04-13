@@ -403,12 +403,10 @@ public class MainActivityControl {
                                 double result = new ExpressionParser().parse(cur);
                                 String resStr = String.valueOf(result);
 
-                                // timestamp
                                 String ts = new SimpleDateFormat(
                                         "yyyy-MM-dd HH:mm:ss", Locale.getDefault()
                                 ).format(new Date());
 
-                                // append to file
                                 String line = cur + "|" + resStr + "|" + ts + "\n";
                                 try (FileOutputStream fos = ctx.openFileOutput(
                                         "calc_history.txt",
